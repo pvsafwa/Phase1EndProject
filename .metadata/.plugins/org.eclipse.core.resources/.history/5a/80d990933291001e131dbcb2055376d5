@@ -24,7 +24,7 @@ public static void SubMenuOptions() throws Exception
 		Scanner ch = new Scanner(System.in);
 		String choice = ch.next();
 		File ff=new File("C:\\Users\\DEV-PC\\Desktop\\Workspace\\Phase1EndProject\\FileFolder");	
-		if (choice.equals("1") || choice.equals("2") || choice.equals("3"))
+		if (choice.equals("1") || choice.equals("2" || choice.equals("3" )
 		{
 		Scanner sin = new Scanner(System.in);
 		System.out.println("Please Enter the File Name");
